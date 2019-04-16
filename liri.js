@@ -14,7 +14,7 @@ runSwitch(command,value);
 
 function runSwitch(command,value){
     switch (command) {                                                  //Switch for taking in CLI command   
-        case "do-this":
+        case "do-what-it-says":
             readFile();
             break;
 
@@ -40,10 +40,6 @@ function runSwitch(command,value){
             }
 
             movieThis(value);                                           //Calls the IMDB function
-            break;
-        }
-        case "do-what-it-says": {
-            doThis();                                                   //Calls the Do This function
             break;
         }
         default: {
